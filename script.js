@@ -9,3 +9,8 @@ button1.onclick=function() {
 bt1.onclick=function() {
 modal1.style.display="none";
 }
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
